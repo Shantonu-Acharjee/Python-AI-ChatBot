@@ -5,6 +5,7 @@ from Model import NeuralNet
 from NltkUtills import bag_of_words, tokenize
 import speech_recognition as sr
 import SpeechRecognition
+import GttsTest
 
 
 
@@ -62,7 +63,9 @@ while True:
 
         for intent in intents['intents']:
             if tag == intent['tag']:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                BotText = random.choice(intent['responses'])
+                print(f"{bot_name}: {BotText}")
+                GttsTest.GttsText(BotText)
 
 
     else:
