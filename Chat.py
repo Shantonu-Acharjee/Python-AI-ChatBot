@@ -69,6 +69,7 @@ while True:
 
 
     else:
+        GttsTest.GttsText('I do not understand')
         print(f"{bot_name}: I do not understand......")
 
 

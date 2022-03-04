@@ -13,7 +13,7 @@ def takeCommand():
 
     try:
         print('Recognizing...')
-        query = r.recognize_google(audio,language='en-ind') # Change Language from hare ---------------------------------------- Language
+        query = r.recognize_google(audio,language='en-in') # Change Language from hare ---------------------------------------- Language
         print(f'Your Command:{query}\n')
 
     except Exception as e:

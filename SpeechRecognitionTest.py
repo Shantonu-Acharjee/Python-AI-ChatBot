@@ -6,14 +6,14 @@ def takeCommand():
     #take voice input and string output
     r = sr.Recognizer()
 
-    with sr.Microphone(3) as source: # Setup your mic number hare------------------------------------------------------ Mick
+    with sr.Microphone(0) as source: # Setup your mic number hare------------------------------------------------------ Mick
         print('I am listening you...')
         r.pause_threshold = 1
         audio = r.listen(source)
 
     try:
         print('Recognizing...')
-        query = r.recognize_google(audio,language='en-ind') # Change Language from hare ---------------------------------------- Language
+        query = r.recognize_google(audio,language='en-in') # Change Language from hare ---------------------------------------- Language
         print(f'Your Command:{query}\n')
 
     except Exception as e:
@@ -25,6 +25,6 @@ def takeCommand():
 
 
 
-"""while True:
+while True:
     query = takeCommand().lower()
-    print('Your Text is :', query)"""
+    print('Your Text is :', query)

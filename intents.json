@@ -3,20 +3,31 @@
                 {
                         "tag": "greeting",
                         "patterns": [
+                                
                                 "Hi",
                                 "Hey",
                                 "How are you",
-                                "Is anyone there?",
                                 "Hello",
-                                "Good day"
+
+
+                                "Meena",
+                                "Hi Meena",
+                                "Hey Meena",
+                                "How are you Meena",
+                                "Hello Meena",
+                                "Assalaam Vaalekum Meena",
+                                "good morning"
                         ],
+
+
                         "responses": [
-                                "Hey :-)",
+                                "Hey",
                                 "Hello, thanks for visiting",
                                 "Hi there, what can I do for you?",
                                 "Hi there, how can I help?"
                         ]
                 },
+
                 {
                         "tag": "goodbye",
                         "patterns": [
@@ -30,6 +41,8 @@
                                 "Bye! Come back again soon."
                         ]
                 },
+
+
                 {
                         "tag": "thanks",
                         "patterns": [
@@ -44,6 +57,8 @@
                                 "My pleasure"
                         ]
                 },
+
+
                 {
                         "tag": "items",
                         "patterns": [
@@ -56,6 +71,9 @@
                                 "We have coffee and tea"
                         ]
                 },
+
+
+
                 {
                         "tag": "payments",
                         "patterns": [
@@ -69,6 +87,9 @@
                                 "We accept most major credit cards, and Paypal"
                         ]
                 },
+
+
+
                 {
                         "tag": "delivery",
                         "patterns": [
@@ -81,6 +102,9 @@
                                 "Shipping takes 2-4 days"
                         ]
                 },
+
+
+                
                 {
                         "tag": "funny",
                         "patterns": [
