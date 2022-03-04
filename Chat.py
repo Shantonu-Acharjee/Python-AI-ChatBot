@@ -3,6 +3,9 @@ import json
 import torch
 from Model import NeuralNet
 from NltkUtills import bag_of_words, tokenize
+import speech_recognition as sr
+import SpeechRecognition
+
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -26,8 +29,18 @@ model.eval()
 bot_name = 'Meena'
 print("Let's Chat! type 'quit' to exit ")
 
+
+
+
+
+
+
+
 while True:
-    sentence = input('You: ')
+    #sentence = input('You: ') #-----------------------
+    sentence = SpeechRecognition.takeCommand()
+
+
     if sentence == 'quit':
         break
 
