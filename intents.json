@@ -3,28 +3,30 @@
                 {
                         "tag": "greeting",
                         "patterns": [
-                                
+                        
                                 "Hi",
                                 "Hey",
+                                "Meena",
                                 "How are you",
                                 "Hello",
+                                "ssalamu Alaikum",
+                                "good morning",
+                                "welcome",
+                                "evening",
+                                "Hi dear"
 
-
-                                "Meena",
-                                "Hi Meena",
-                                "Hey Meena",
-                                "How are you Meena",
-                                "Hello Meena",
-                                "Assalaam Vaalekum Meena",
-                                "good morning"
                         ],
 
 
                         "responses": [
                                 "Hey",
-                                "Hello, thanks for visiting",
+                                "Hello",
                                 "Hi there, what can I do for you?",
-                                "Hi there, how can I help?"
+                                "How can I help you?",
+                                "Hello, I am rady for Your command.",
+                                "I am Meena, Your artificial Friend. How can i help you?",
+                                "buddy",
+                                "guys"
                         ]
                 },
 
@@ -33,14 +35,23 @@
                         "patterns": [
                                 "Bye",
                                 "See you later",
-                                "Goodbye"
+                                "Goodbye",
+                                "come again"
                         ],
                         "responses": [
-                                "See you later, thanks for visiting",
+                                "See you later",
                                 "Have a nice day",
-                                "Bye! Come back again soon."
+                                "Bye! Come back again soon.",
+                                "Take care",
+                                "i am happy to talk eith you",
+                                "nice to meet you",
+                                "i am happy to help you"
+
                         ]
                 },
+
+
+
 
 
                 {
@@ -54,54 +65,108 @@
                         "responses": [
                                 "Happy to help!",
                                 "Any time!",
-                                "My pleasure"
+                                "My pleasure",
+                                "i am happy to talk eith you",
+                                "nice to meet you",
+                                "i am happy to help you"
                         ]
                 },
 
 
-                {
-                        "tag": "items",
-                        "patterns": [
-                                "Which items do you have?",
-                                "What kinds of items are there?",
-                                "What do you sell?"
-                        ],
-                        "responses": [
-                                "We sell coffee and tea",
-                                "We have coffee and tea"
-                        ]
-                },
 
 
 
                 {
-                        "tag": "payments",
+                        "tag": "YourName",
                         "patterns": [
-                                "Do you take credit cards?",
-                                "Do you accept Mastercard?",
-                                "Can I pay with Paypal?",
-                                "Are you cash only?"
+                                "what's your name",
+                                "who are you?",
+                                "introduce yourself",
+                                "what's your identy"
                         ],
+
                         "responses": [
-                                "We accept VISA, Mastercard and Paypal",
-                                "We accept most major credit cards, and Paypal"
+                                "I am Meena",
+                                "My name is Meena."
+                                
                         ]
                 },
+
+
+
 
 
 
                 {
-                        "tag": "delivery",
+                        "tag": "YourAge",
                         "patterns": [
-                                "How long does delivery take?",
-                                "How long does shipping take?",
-                                "When do I get my delivery?"
+                                "How old are you?",
+                                "what's your birthday?",
+                                "what's your age",
+                                "how much old you are"
                         ],
+
                         "responses": [
-                                "Delivery takes 2-4 days",
-                                "Shipping takes 2-4 days"
+                                "YourAge"
+                                
                         ]
                 },
+
+
+
+
+
+                {
+                        "tag": "BangoBondu",
+                        "patterns": [
+                                "Who is BangoBondu",
+                                "nation of father",
+                                "father of banglasesh",
+                                "tell about BangoBondu"
+                        ],
+
+                        "responses": [
+                                "BangoBondu Sheikh Mujibur Rahman is nation of father in Bangladesh"
+                                
+                        ]
+                },
+
+
+
+
+
+
+
+                {
+                        "tag": "HowAreYou",
+                        "patterns": [
+                                "how are you",
+                                "what'sup",
+                                "how about you"
+                               
+                        ],
+
+                        "responses": [
+                                "I am fine",
+                                "I am good",
+                                "i am well",
+                                "i am ok",
+                                "i am all right",
+                                "i am feeling good",
+                                "I feel fine"
+                                
+                        ]
+                },
+
+
+                
+
+
+
+
+
+
+               
 
 
                 
