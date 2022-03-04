@@ -6,7 +6,7 @@ def takeCommand():
     #take voice input and string output
     r = sr.Recognizer()
 
-    with sr.Microphone(3) as source: # Setup your mic number hare------------------------------------------------------ Mick
+    with sr.Microphone(0) as source: # Setup your mic number hare------------------------------------------------------ Mick
         print('I am listening you...')
         r.pause_threshold = 1
         audio = r.listen(source)
